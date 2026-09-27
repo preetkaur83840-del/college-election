@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SJPP DAMLA College-President-Election 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SJPP DAMLA</h1>
+        <h2>COLLEGE PRESIDENT ELECTION 2026</h2>
+    </header>
+
+    <main>
+
+        <h2>VOTE FOR YOUR PRESIDENT</h2>
+
+        
+          
+            <div class="candidate">
+                <img src="IMAGE/harsh.jpg" alt="HARSH">
+                <h3>HARSH A</h3>
+                <p>President Candidate</p>
+                <button onclick="vote('HARSH')">VOTE</button>
+            </div>
+
+
+            <div class="candidate">
+                <img src="IMAGE/kadeer.jpg" alt="KADEER">
+                <h3>KADEER  B</h3>
+                <p>President Candidate</p>
+                <button onclick="vote('KADEER')">VOTE</button>
+            </div>
+
+        </div>
+<div class="results">
+    <h2>VOTING COUNT</h2>
+
+    <p>HARSH: <span id="harshCount">0</span> votes</p>
+    <p>KADEER: <span id="kadeerCount">0</span> votes</p>
+</div>
+    </main>
+    <div id="voteMessage"></div>
+ <footer>
+    <p>SJPP DAMLA | College President Election 2026</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
