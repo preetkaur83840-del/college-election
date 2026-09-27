@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+}
+
+header {
+    background: #172554;
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    font-size: 28px;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+main p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+.candidate img {
+    width: 120px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+}
+.candidate + .candidate {
+    margin-top: 30px;
+}
+.results {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto 0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.results h2 {
+    color: #172554;
+    margin-bottom: 20px;
+}
+
+.results p {
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+.results span {
+    font-weight: bold;
+    color: #2563eb;
+}
+button {
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+#voteMessage {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #16a34a;
+}
+button {
+    min-width: 180px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+button:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+    transform: none;
+}
+.candidate {
+    transition: 0.2s;
+}
+
+.candidate:hover {
+    transform: translateY(-5px);
+}
+.results span {
+    font-size: 24px;
+    margin-left: 5px;
+}
+header {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    letter-spacing: 2px;
+}
+
+header h2 {
+    letter-spacing: 1px;
+}
+footer {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 30px 10px;
+    }
+
+    .candidate {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
